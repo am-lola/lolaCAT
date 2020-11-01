@@ -6,11 +6,11 @@ An EtherCAT-Based Real-Time Control System Architecture for Robotic Applications
 
 The goal of this project is to provide a framework for the low-level control of robots via an EtherCAT bus. It defines the concept of bus variables, which is a general wrapper for the representation of variables on bus slaves. Using this concept of bus variables, an interface to the commercial EtherCAT master stack from acontis technologies (http://www.acontis.com) is provided. Several device abstractions for Beckhoff EtherCAT devices and the Gold series from Elmo Motion Control (http://elmomc.com) are provided within the framework. This framework may be used (together with the acontis stack or a different EtherCAT master stack) to control the joints of robots with a high number of DoFs.
 
-## Background
+## Publication
 
-The code shown here is presented in an international publication, which is currently under review. In this publication, we show the high performance of our implementation and the general concept of bus variables. Furthermore, we show how this hardware layer can be used for extended joint-control concepts.
+The performance of the bus variable concept is evaluated and discussed in our following publication:
 
-Once published, we'll provide a link to the publication in this Readme.
+F. Sygulla et al., "An EtherCAT-Based Real-Time Control System Architecture for Humanoid Robots," 2018 IEEE 14th International Conference on Automation Science and Engineering (CASE), Munich, 2018, pp. 483-490, doi: 10.1109/COASE.2018.8560532.
 
 ## Folder Structure
 
